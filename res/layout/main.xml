@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<ViewFlipper android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/viewflipper">
+
+		//画面1
+
+		<LinearLayout android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:gravity="bottom|center" android:background="@drawable/beatriz">
+
+	    	<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+    	    	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♪　" android:id="@+id/bButton1"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♭　" android:id="@+id/bButton2"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　セ　" android:id="@+id/bButton3"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　光　" android:id="@+id/bButton4"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　自動で　" android:id="@+id/bButton5"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="シュパッと" android:id="@+id/bButton6"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="消臭プラグ" android:id="@+id/bButton7"></Button>
+    		</LinearLayout>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bButton10" android:background="@drawable/st"></Button>
+		</LinearLayout>
+
+		//画面2
+
+		<LinearLayout android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:gravity="bottom|center" android:background="@drawable/leonor">
+
+	    	<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+    	    	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♪　" android:id="@+id/bButton11"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♭　" android:id="@+id/bButton12"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　セ　" android:id="@+id/bButton13"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　光　" android:id="@+id/bButton14"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　自動で　" android:id="@+id/bButton15"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="シュパッと" android:id="@+id/bButton16"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="消臭プラグ" android:id="@+id/bButton17"></Button>
+    		</LinearLayout>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bButton18" android:background="@drawable/st"></Button>
+		</LinearLayout>
+
+		//画面3
+
+		<LinearLayout android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:gravity="bottom|center" android:background="@drawable/margarida">
+
+	    	<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+    	    	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♪　" android:id="@+id/bButton21"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　♭　" android:id="@+id/bButton22"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　セ　" android:id="@+id/bButton23"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　光　" android:id="@+id/bButton24"></Button>
+    		</LinearLayout>
+    		<LinearLayout android:id="@+id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="　自動で　" android:id="@+id/bButton25"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="シュパッと" android:id="@+id/bButton26"></Button>
+        		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="消臭プラグ" android:id="@+id/bButton27"></Button>
+    		</LinearLayout>
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bButton28" android:background="@drawable/st"></Button>
+		</LinearLayout>
+	</ViewFlipper>
+</LinearLayout>
